@@ -201,7 +201,7 @@ def create_note():
     if not filename:
         short_code = gen_short_code(title)
         slug = slugify(title)
-        filename = slug + '-' + short_code
+        filename = slug
         logging.info('Generating new filename: %s', filename)
 
     if re.search('[^a-z0-9_-]', filename):
