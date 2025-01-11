@@ -1,6 +1,6 @@
 # API Key set in Share Note plugin settings
 # set to something random like: head /dev/urandom | md5sum
-SECRET_API_KEY = ''
+SECRET_API_KEY = 'b2a49e1cb17f2009e9084f456b32fd26'
 
 # This API server's URL without a trailing slash
 # Some examples might be:
