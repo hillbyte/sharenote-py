@@ -7,7 +7,7 @@ SECRET_API_KEY = 'b2a49e1cb17f2009e9084f456b32fd26'
 #     SERVER_URL = 'https://notes.example.com'
 #     SERVER_URL = 'http://123.123.123.123:8086'
 #     SERVER_URL = 'http://something.local:8086'
-SERVER_URL = 'http://lgg0gwcgw8gwg8cs8k4cccg0.152.67.167.99.sslip.io'
+SERVER_URL = 'https://share.note.ahbdesk.online'
 
 # Listen port
 PORT = 8086
