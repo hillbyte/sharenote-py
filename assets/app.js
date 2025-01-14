@@ -56,7 +56,7 @@ function initDocument () {
       // Is mobile
       document.body.classList.add(...mobileClasses);
     } else {
-      document.body.classList.remove(...mobileClasses);
+      document.body.classList.add(...mobileClasses);
     }
   }
 
