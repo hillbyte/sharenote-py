@@ -229,7 +229,7 @@ def delete_note():
     if filename == 'index':
         search_glob = 'static/index.html'
     else:
-        search_glob = 'static/*-{}.html'.format(data['filename'])
+        search_glob = 'static/{}.html'.format(data['filename'])
 
     search_result = glob.glob(search_glob)
 
